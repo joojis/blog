@@ -5,3 +5,15 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+### Vim ### Created by https://www.gitignore.io/api/vim
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
