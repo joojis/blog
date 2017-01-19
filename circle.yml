@@ -1,0 +1,15 @@
+machine:
+  timezone:
+    Asia/Seoul
+
+dependencies:
+  override:
+    - npm install
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - git config --global user.name "JinGyeong Jeong"
+      - git config --global user.email "jjgjoojis@gmail.com"
+      - ./node_mouldes/hexo/bin/hexo deploy
